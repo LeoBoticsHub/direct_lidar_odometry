@@ -33,6 +33,11 @@ Our system has been tested extensively on both Ubuntu 18.04 Bionic with ROS Melo
 - Point Cloud Library >= `1.10.0`
 - Eigen >= `3.3.7`
 
+To install the Point Cloud Library (pcl) type:
+```sh
+sudo apt-get install ros-noetic-pcl-ros
+```
+
 Installing the binaries from Aptitude should work though:
 ```sh
 sudo apt install libomp-dev libpcl-dev libeigen3-dev 
